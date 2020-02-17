@@ -1,5 +1,5 @@
 # Microstructural Materials Design via Deep Adversarial Learning Methodology
-This software is an deep learning application for generating materials microstructure images using generative adversarial networks. The networks are trained on synthetic 2D microstructure images.
+MDGAN is a generative adversarial network to generate materials microstructure images for materials discovery. The networks are trained on synthetic 2D microstructure images.
 
 This software requires the input in the form of a numpy array of shapre (x, 128, 128) where x is the number of microstructure images and the dimension of microstructure is 128 by 128.
 The software takes the microstructure images as input to train the generative adversarial networks.
