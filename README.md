@@ -15,13 +15,13 @@ The detailed description about data preprocessing and model can be found in the 
 * H5PY 2.7.1
 
 ## Source Files
-1. `gan_training.py`: The script that trains the GAN that can generate two-phase microstructure image.
+1. `gan_training.py`: The script that trains the GAN that can generate two-phase microstructure image. After training, the trained model will be saved in 'model' folder generated in the current repository. 
 2. `example_data.pkl`: Example data of synthetic microstructure images, including 10 2D microstructures.
 
 ## How to run it
 1. Download the file containing the weights of VGG16,
    [vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5](https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5), before the training.
-2. Run commend below, which trains the GAN and save the ooutput.
+2. Run commend below, which trains the GAN and save the trained model in 'model' folder generated in the current repository.
    ```
    python gan_training.py
    ```
